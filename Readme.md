@@ -124,7 +124,7 @@ async function grabDiscordProc() {
   const session = await grabDiscordProc();
   const script = await session.createScript(`
     const base = Module.findBaseAddress("discord_voice.node");
-    const offset = 0x1A750; // use the offset you found in IDA (this may be outdated)
+    const offset = 0x1A750; // use the offset you found in IDA (this offset may be outdated or wrong)
     Interceptor.attach(base.add(offset), {
       onEnter(args) {
         const samples = args[1];
