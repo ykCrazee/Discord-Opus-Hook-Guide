@@ -183,6 +183,6 @@ This is all educational. Don't troll randoms in vc or get banned. Test in privat
 
 ## Credit
 
-Idea from cypher
+Idea from Cypher, geniii, cancel, abaddon owner
 
 
