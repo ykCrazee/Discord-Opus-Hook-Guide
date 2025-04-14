@@ -2,7 +2,7 @@
 
 ## Overview
 **NOTE**
-This is a full walk-through on how hooking to Discord’s internal Opus encoder module (`discord_voice.node`) **works** so you can mess with the audio — mute it, distort it, force bitrate to 0, or whatever. We're gonna locate the encode function, patch it in memory with Frida, and test it live. **You have to play around with it and add more stuff to it as you choose.**
+This is a full walk-through on how hooking to Discord’s internal Opus encoder module (`discord_voice.node`) **WORKS** so you can mess with the audio — mute it, distort it, force bitrate to 0, or whatever. We're gonna locate the encode function, patch it in memory with Frida, and test it live. **You have to play around with it and add more stuff to it as you choose.**
 
 ## What It Can Do
 
